@@ -9,7 +9,7 @@
     "monolog/monolog": "^3.3"
   },
   "replace": {
-      "alibabacloud/tea-console": "^0.1.0"
+      "monolog/monolog": "self.version"
   },
   "autoload": {
     "psr-4": {
