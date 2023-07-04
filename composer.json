@@ -1,5 +1,5 @@
 {
-  "name": "alibabacloud/tea-console",
+  "name": "mobilenowgroup/tea-console",
   "description": "Alibaba Cloud Tea Console Output Library for PHP",
   "type": "library",
   "license": "Apache-2.0",
@@ -7,6 +7,9 @@
   "require": {
     "php": ">5.5",
     "monolog/monolog": "^3.3"
+  },
+  "replace": {
+    "alibabacloud/tea-console": "^0.1.0"
   },
   "autoload": {
     "psr-4": {
